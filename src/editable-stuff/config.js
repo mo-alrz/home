@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Mohammad",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Alirezaee",
+  message: " Unraveling Insights, Empowering Decisions: Where Data Speaks, Analysts Listen. ",
   icons: [
     {
       image: "fa-github",
@@ -43,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/moalrz.jpg"),
   imageSize: 375,
   message:
     "I am Mohamad and I am interested in everything about data analytics and machine learning systems. I am currently enrolled in a Master's program in IT for Business Data Analytics at IBS University in Budapest, Hungary",
-  resume: "/editable-stuff/resume.pdf",
+  resume: "../editable-stuff/resume.pdf",
 };
 
 // PROJECTS SECTION
@@ -58,7 +58,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "mo-alrz", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -94,20 +94,19 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "MS Excel", value: 90 },
+    { name: "Power Point", value: 90 },
+    { name: "Access", value: 90 },
+    { name: "Excel", value: 90 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Analytical Skills", value: 90 },
+    { name: "Problem Solving", value: 90 },
+    { name: "Teamwork", value: 80 },
+    { name: "Critical Thinking", value: 90 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
+    { name: "Attention to Details", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
   ],
@@ -118,8 +117,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Data Analyst or Machine Learning trainee opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "m.alirezaaee.1986@gmail.com",
 };
 
 const experiences = {
@@ -127,14 +126,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'IT Operator/Assistant Manager Tiroj Corporation',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      date: 'May 2014 – July 2021',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Founder/Manager/Accountant Seven Boutiques',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'January 2012 – January 2022',
     },
   ]
 }
