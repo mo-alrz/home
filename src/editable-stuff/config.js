@@ -16,10 +16,6 @@ const mainBody = {
       url: "https://github.com/mo-alrz",
     },
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/mohammad.alrz/",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/mohammad-alirezaee-d/",
     },
@@ -47,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "I am Mohamad and I am interested in everything about data analytics and machine learning systems. I am currently enrolled in a Master's program in IT for Business Data Analytics at IBS University in Budapest, Hungary",
-  resume: "../editable-stuff/resume.pdf",
+  resume: "https://drive.google.com/file/d/1t4jvoFZ9WNWeSluwqPZzsKm39eCurYUB/view?usp=drive_link",
 };
 
 // PROJECTS SECTION
@@ -58,9 +54,10 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "mo-alrz", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "mo-alrz",
+  reposLength: 6,
+  specificRepos: ["Classification-Project","Neural-Network-Project","FullDataAnalysisProjectAndDashboardingWithExcel","Data-preparation","Scraping","API"]
+
 };
 
 // Leadership SECTION
@@ -93,12 +90,13 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
+    { name: "SQL", value: 70 },
+    { name: "ML/DL", value: 55 }
+    { name: "HTML/CSS", value: 50 },
     { name: "MS Excel", value: 90 },
-    { name: "Power Point", value: 90 },
-    { name: "Access", value: 90 },
-    { name: "Excel", value: 90 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "Power Point", value: 70 },
+    { name: "Access", value: 70 },
+    { name: "MS Word", value: 90 },
   ],
   softSkills: [
     { name: "Analytical Skills", value: 90 },
@@ -122,17 +120,17 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: 'IT Operator/Assistant Manager Tiroj Corporation',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/tiroj.jpg'),
       date: 'May 2014 – July 2021',
     },
     {
       role: 'Founder/Manager/Accountant Seven Boutiques',
-      companylogo: require('../assets/img/boeing.png'),
+      companylogo: require('../assets/img/seven.jpg'),
       date: 'January 2012 – January 2022',
     },
   ]
