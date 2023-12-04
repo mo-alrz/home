@@ -55,7 +55,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "mo-alrz",
-  reposLength: 6,
+  reposLength: 0,
   specificRepos: ["Classification-Project","Neural-Network-Project","FullDataAnalysisProjectAndDashboardingWithExcel","Data-preparation","Scraping","API"]
 
 };
@@ -91,7 +91,7 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 70 },
-    { name: "ML/DL", value: 55 }
+    { name: "ML/DL", value: 55 },
     { name: "HTML/CSS", value: 50 },
     { name: "MS Excel", value: 90 },
     { name: "Power Point", value: 70 },
