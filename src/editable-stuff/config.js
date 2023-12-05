@@ -43,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "I am Mohamad and I am interested in everything about data analytics and machine learning systems. I am currently enrolled in a Master's program in IT for Business Data Analytics at IBS University in Budapest, Hungary",
-  resume: "https://drive.google.com/file/d/1t4jvoFZ9WNWeSluwqPZzsKm39eCurYUB/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1K3X_lbpMUbwuxPnOc0egJeg98-krtAoP/view?usp=drive_link",
 };
 
 // PROJECTS SECTION
